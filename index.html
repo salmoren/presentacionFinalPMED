@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Cultivo y plantación</title>
+		<meta name="description" content="Curso introductorio al ajo: historia, propiedades y plantación">
+		<meta name="author" content="Salvador Moreno Sánchez">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<img src="images/cultivoAjo.jpg" alt="Ajos cultivados" style="height: 350px; width: 600px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+
+					<h3 style="color: tomato">Curso introductorio al ajo</h3>
+
+					<p>
+						<small>SALVADOR MORENO SÁNCHEZ</small>
+					</p>
+				</section>
+
+				<section data-background="gifs/plantar.gif">
+					<div style="position: absolute; width: 40%; right: 600px; bottom: 50px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>¿Por qué un curso sobre sembrar ajos?</h2>
+					</div>
+				</section>
+
+				<section>
+					<img src="images/ajosCasa.jpg" alt="Ajos cultivados" style="height: 550px; width: 600px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+
+				</section>
+
+				<section>
+					<h2 style="color: tomato">Índice</h2>
+					<ol>
+						<li class="fragment fade-right">Estructura del curso y materiales desarrollados</li>
+						<li class="fragment fade-left">Ventajas e inconvenientes que presenta el uso de Markdown y las técnologías empleadas</li>
+					</ol>
+				</section>
+
+				<section>
+					<section> 
+						<h2 style="color: tomato">Estructura del curso y materiales desarrollados</h2>
+						
+					</section>
+
+					<section>
+						<ol>
+							<span class="fragment highlight-current-green"><li>Curso introductorio al ajo: historia, propiedades y plantación</li></span>
+							<hr>
+							<ol><span class="fragment highlight-current-green">
+								<li>Historia</li>
+								<li>Propiedades y uso gastronómico</li>
+								<li>Receta: ajustaburras</li>
+								<li>Cultivo</li>
+								<li>Prácticas</li>
+							</span></ol>
+						</ol>
+					</section>
+
+					<section> 
+						<h3 style="color: tomato">1. Curso introductorio al ajo: historia, propiedades y plantación</h3>
+						<ul>
+							<li class="fragment fade-right">Markdown</li>
+							<li class="fragment fade-right">Pandoc</li>
+							<pre class="fragment fade-right"><code data-trim data-noescape>
+								pandoc -t revealjs --css=reveal.js/css/theme/black.css --standalone --variable
+								 theme=black --variable transition=slide --template=template-revealjs.html
+								  introduccionCurso.md -o index.html
+					  		</code></pre>
+							<li class="fragment fade-right">Framework reveal.js</li>
+							<li class="fragment fade-right">Github</li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/inicioCurso.png" alt="Inicio curso" style="height: 550px; width: 1300px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+					</section>
+
+					<section> 
+						<h3 style="color: tomato">1.1. Historia</h3>
+						<ul>
+							<li class="fragment fade-right">Markdown</li>
+							<li class="fragment fade-right">Pandoc</li>
+							<pre class="fragment fade-right"><code data-trim data-noescape>
+								pandoc -t beamer -s beamer1.md -o beamer1.pdf
+					  		</code></pre>
+							<li class="fragment fade-right">LaTeX/Beamer</li>
+							<li class="fragment fade-right">PDF</li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/historia.png" alt="Inicio curso" style="height: 550px; width: 1300px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+					</section>
+
+					<section> 
+						<h3 style="color: tomato">1.2. Propiedades y uso gastronómico</h3>
+						<ul>
+							<li class="fragment fade-right">Markdown</li>
+							<li class="fragment fade-right">Pandoc</li>
+							<pre class="fragment fade-right"><code data-trim data-noescape>
+								pandoc -t beamer -s beamer2.md -o beamer2.pdf
+					  		</code></pre>
+							<li class="fragment fade-right">LaTeX/Beamer</li>
+							<li class="fragment fade-right">PDF</li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/propiedades.png" alt="Inicio curso" style="height: 550px; width: 1300px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+					</section>
+
+					<section> 
+						<h3 style="color: tomato">1.3. Receta: ajustaburras</h3>
+						<ul>
+							<li class="fragment fade-right">Markdown</li>
+							<li class="fragment fade-right">Pandoc</li>
+							<pre class="fragment fade-right"><code data-trim data-noescape>
+								pandoc -N  epub.md -o ebook.epub
+					  		</code></pre>
+							<li class="fragment fade-right">EPUB</li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/receta.png" alt="Inicio curso" style="height: 550px; width: 1300px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+					</section>
+
+					<section> 
+						<h3 style="color: tomato">1.4. Cultivo</h3>
+						<ul>
+							<li class="fragment fade-right">Framework reveal.js nativo</li>
+							<li class="fragment fade-right">Github</li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/cultivo.png" alt="Inicio curso" style="height: 550px; width: 1300px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+					</section>
+
+					<section> 
+						<h3 style="color: tomato">1.5. Prácticas</h3>
+						<ul>
+							<li class="fragment fade-right">Markdown</li>
+							<li class="fragment fade-right">Pandoc</li>
+							<pre class="fragment fade-right"><code data-trim data-noescape>
+								pandoc -s --toc -c style.css -A pie.html practicas.md -o practicas.html
+					  		</code></pre>
+							<li class="fragment fade-right">HTML</li>
+							<a class="fragment fade-right" href="https://salmoren.github.io/practicasCursoAjo/" target="_blank">Enlace a la web de las prácticas</a>
+							<li class="fragment fade-right">Github</li>
+							<li class="fragment fade-right">PDF</li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/practicas.png" alt="Inicio curso" style="height: 550px; width: 1300px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2 style="color: tomato">Ventajas e inconvenientes que presenta el uso de Markdown y las técnologías empleadas</h2>
+					</section>
+
+					<section>
+						<h2 style="color: tomato">WYSIWYG VS No WYSIWYG</h2>
+						<table>
+					    	<thead><tr>
+					            <th>WYSIWYG</th>
+					            <th>No WYSIWYG</th>
+					        </tr></thead>
+					        <tbody>
+					        	<tr>
+						            <td>El estilo sobre el contenido</td>
+						            <td>El contenido es lo principal</td>
+					        	</tr>
+					        	<tr>
+					            	<td>Fácil uso</td>
+					            	<td>El estilo del documento puede cambiarse con pocos cambios en las fuentes</td>
+					       		</tr>
+					       		<tr>
+					            	<td>Adaptar a otro formato puede ser costoso</td>
+					            	<td>Curva de aprendizaje pronunciada</td>
+					       		</tr>
+					       	</tbody>
+					    </table>
+					</section>
+				</section>
+
+				<section>
+					<h2 style="color: tomato">Conclusiones finales</h2>
+					<ul>
+						<li class="fragment fade-right">Productividad</li>
+						<li class="fragment fade-right">Atención al contenido</li>
+						<li class="fragment fade-right">Diversidad de formatos</li>
+						<li class="fragment fade-right">Accesibilidad</li>
+						<li class="fragment fade-right">Reutilización</li>
+					</ul>
+					</br></br>
+					<h3 style="color: tomato"><span class="fragment fade-right">+ </span><span class="fragment fade-right" style="color: tomato">eXeLearning</span><span class="fragment fade-right"> = </span><span class="fragment fade-right" style="color: tomato">OER (Open Educational Resource)</span></h3>
+
+				</section>
+
+				<section data-background="despedida.gif">
+					<div style="position: absolute; width: 40%; right: -90px; bottom: 180px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>Muchas gracias por vuestra atención</h2>
+					</div>
+				</section>
+
+				<section>
+					<img src="images/cc.jpeg" alt="Velero en navegación por el mar" style="height: 280px; width: 600px; margin: 0 auto 3rem auto; background: transparent; border-radius: 10px;" class="demo-logo">
+					<p>Email de contacto: salmoren@ucm.es</p>
+					<p><a href="#/0">Volver a la diapositiva inicial</a></p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				slideNumber: 'c/t',
+				progress: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
